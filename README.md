@@ -179,7 +179,7 @@ f. Click the Tab *S3 Buckets you can access across AWS*, under *Use Different Bu
 
 In this step, we configure Athena and Lambda to create a solution to query data at rest in S3 and build answers for Alexa. 
 
-####Step 3 a: Double check to ensure that we are running in the same region that the CloudFormation was launched
+#### Step 3 a: Double check to ensure that we are running in the same region that the CloudFormation was launched
 
 In this step, we will use Athena and Lambda. It is important to ensure that we are still using the same region launched with the CloudFormation
 
@@ -391,7 +391,7 @@ In this case, we will use the standard CloudWatch Event.
 
 ![Watch how to configure a test event](https://github.com/awslabs/voice-powered-analytics/blob/master/media/images/vpa-lambda-test-cwe.gif)
 
-### #Now we should test the Lambda. 
+#### Now we should test the Lambda. 
 
 1. Click **test** in the upper right
 1. Once the run has completed, click on the **Details** link to see how many reinvent tweets are stored in s3.
