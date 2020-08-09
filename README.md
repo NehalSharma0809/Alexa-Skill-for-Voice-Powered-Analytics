@@ -85,7 +85,7 @@ The data format look like this:
 }
 ```
 
-#### Step 2b - Create an Athena table
+#### Step 2b: Create an Athena Table
 
 We need to create a table in Amazon Athena. This will allow us to query the data at rest in S3 from QuickSight. 
 The twitter data is stored as JSON documents and then compressed in s3. 
@@ -134,7 +134,7 @@ SELECT COUNT(*) AS TOTAL_TWEETS FROM tweets;
 ```
 
 
-#### Step 2 c :Explore the data using Quicksight
+#### Step 2 c: Explore the data using Quicksight
 We've created an Athena table directly on top of our S3 Twitter data, let's explore some insights on the data.  
 While this can be achieved through Athena itself or compatible query engines, Amazon Quicksight enables us to connect directly to Athena and quickly visualize it into charts and graphs without writing any SQL code.  
 Let's explore:      
