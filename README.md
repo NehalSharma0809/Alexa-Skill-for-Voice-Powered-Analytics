@@ -11,5 +11,5 @@ The main steps of this project include:
 
 ### Step 0: Lab Setup CloudFormation Stack
 I followed the following steps to launch the CloudFormation Stack on the AWS cloud
-![CloudFormation Stack] (https://github.com/awslabs/voice-powered-analytics/blob/master/media/images/vpa-cloudformation-launch.gif)
+![](https://github.com/awslabs/voice-powered-analytics/blob/master/media/images/vpa-cloudformation-launch.gif)
 
